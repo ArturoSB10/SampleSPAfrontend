@@ -1,0 +1,14 @@
+<div class="form-container" style="align-items: center;">
+    <h2>Login</h2>
+    <form id="login-form">
+        <input type="text" id="username" placeholder="Username" required
+        maxlength="50" [(ngModel)]="user.userName" name="username" #username>
+        <input type="password" id="password" placeholder="Password" required
+        maxlength="50" [(ngModel)]="user.password" name="password" #password >
+        <a routerLink="/register">Register</a>
+        <button (click)="login()">Login</button>
+    </form>
+</div>
+
+
+
