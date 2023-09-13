@@ -5,6 +5,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+In case of error run `ng add @angular-devkit/build-angular` and try again.
+
+## Node.js 
+
+Version >= 14.15 (required).
 
 ## Code scaffolding
 
